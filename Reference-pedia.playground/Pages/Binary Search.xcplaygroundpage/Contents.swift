@@ -12,7 +12,7 @@ extension RandomAccessCollection where Element: Comparable {
 
         // Check if the range is empty or invalid; if so, return nil
         guard range.lowerBound < range.upperBound else { return nil }
-
+ 
         // Calculate the size of the current search range
         let size = distance(from: range.lowerBound, to: range.upperBound)
 
