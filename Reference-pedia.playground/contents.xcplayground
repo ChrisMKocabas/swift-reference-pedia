@@ -4,5 +4,6 @@
         <page name='Binary Search'/>
         <page name='Incomplete - Leetcode Solutions '/>
         <page name='Binary Tree'/>
+        <page name='Quick Sort'/>
     </pages>
 </playground>
