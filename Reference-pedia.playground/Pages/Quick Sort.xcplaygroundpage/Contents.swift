@@ -55,7 +55,7 @@ func swap(in array: inout [Int], index1: Int, index2: Int) {
   array[index1] = array[index2]
   array[index2] = temp
 }
-
+   
 // Extension to generate a random shuffled array of integers
 public extension Array where Element == Int {
   static func generateRandom(size: Int) -> [Int] {
